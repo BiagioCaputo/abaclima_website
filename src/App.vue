@@ -1,8 +1,12 @@
-<script setup>
+<script>
+export default {
+  name: 'AbaClima',
+  components: {},
+}
 </script>
 
 <template>
-  <h1 class="text-center my-5">Aba clima</h1>
+  <RouterView />
 </template>
 
 <style scoped></style>
